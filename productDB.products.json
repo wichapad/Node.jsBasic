@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6471cd5ffcb0c4102f407bb6"
+  },
+  "name": "Adapter Printer New!",
+  "price": 1085,
+  "image": "1685179743086.jpg",
+  "description": "Adapter Printer Update",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6471d78aa2fdc831b856408b"
+  },
+  "name": "Clothing",
+  "price": 8000,
+  "image": "1685182346965.jpg",
+  "description": "New Fashion Yellow ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6471d7b6a2fdc831b856408e"
+  },
+  "name": "กางเกง",
+  "price": 18000,
+  "image": "1685182390908.jpg",
+  "description": "กางเกง Collection ใหม่",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6471d7d1a2fdc831b8564091"
+  },
+  "name": "แว่นตา",
+  "price": 899,
+  "image": "1685182417413.jpg",
+  "description": "แว่นตารุ่นใหม่",
+  "__v": 0
+}]
