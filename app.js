@@ -2,11 +2,19 @@
 const express = require('express')
 const path = require('path')
 const router = require('./routes/myRouter')
+const cookieParser = require('cookie-parser')
+const session = require('express-session')
 const app = express()
 
 app.set('views',path.join(__dirname,'views')) //อ้างอิงตำแหน่ง template
 app.set('view engine','ejs') //ระบุรูปแบบ engine
 app.use(express.urlencoded({extended:false}))
+app.use(cookieParser())
+app.use(session({
+    secret:"mySession",
+    resave:false,
+    saveUninitialized:false
+}))
 app.use(router)
 app.use(express.static(path.join(__dirname,"public")))
 
